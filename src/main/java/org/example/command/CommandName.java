@@ -20,7 +20,7 @@ public enum CommandName {
     WEATHER("/weather" ) {
         @Override
         public String getAnswer() {
-            return "Temperature in Ekaterinburg now is " + Parsing.parsing();
+            return "В Екатеринбурге сейчас " + Parsing.parsing();
         }
     },
     UNKNOWN("") {
